@@ -1,0 +1,135 @@
+/* ///////////////////Acceuil  */
+
+body {
+    background-image: url("../img/cinema.png");
+    object-fit: fill;
+}
+
+
+.box {
+    
+    margin: 20vh 20vh 20vh 20vh;
+    padding: 5vh 5vh 5vh 5vh;
+    background-color: rgb(44, 15, 15);
+    border-radius: 2%;
+    box-shadow: 15px 20px 4px rgba(0, 0, 0,0.5 );
+}
+
+.cinema-title {
+    display: flex;
+    justify-content: center;
+}
+
+.movie-table {
+    display: flex;
+    align-items: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    color: rgb(217, 202, 202);
+    font-weight: 700;
+}
+
+.link_box {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+}
+.films-box, .membres-box {
+    background-color: rgb(131, 57, 57);
+    padding: 2vh 5vh 2vh 5vh;
+    border-radius: 2%;
+    box-shadow: 8px 10px 4px rgba(0, 0, 0,0.5 );
+
+}
+
+a {
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    
+}
+
+.films-box:hover, .membres-box:hover {
+    background-color: rgb(155, 78, 78);
+
+}
+
+.films-box:active, .membres-box:active {
+    box-shadow: none;
+
+}
+
+nav > a{
+    color: rgb(217, 202, 202);
+    
+}
+
+.film-tab-section {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    color: rgb(217, 202, 202);
+    padding: 5vh;
+    }
+
+
+   th { 
+    background-color: rgb(131, 57, 57);
+    }
+
+    td {
+        margin-right: 2vh;
+    }
+
+    select {
+        color: rgb(217, 202, 202);
+        background-color: rgb(131, 57, 57);
+        padding: 1vh 2vh 1vh 2vh;
+        border-radius: 2%;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0,0.5 );
+    }
+
+    .search {
+        background-color: rgb(217, 202, 202);
+        padding: 1vh 2vh 1vh 2vh;
+        border-radius: 2%;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0,0.5 );
+    }
+
+    .button {
+        color: rgb(217, 202, 202);
+        background-color: rgb(131, 57, 57);        
+        padding: 1vh 2vh 1vh 2vh;
+        border-radius: 2%;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0,0.5 );
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        gap: 2vh;
+        margin-top: 5vh ;
+    }
+
+    td > a {
+        text-decoration: none;
+        color: rgb(217, 202, 202);
+        background-color: rgb(131, 57, 57);        
+        border-radius: 2%;
+        box-shadow: 2px 3px 2px rgba(0, 0, 0,0.5 );
+    }
+
+    .type_abo {
+        display: flex;
+        justify-content: center;
+        color: rgb(217, 202, 202);
+
+
+    }
